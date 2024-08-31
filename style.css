@@ -1,0 +1,206 @@
+
+/*--- # utiliza com  id-- */
+/*--- . utiliza com  class-- */
+ 
+ 
+/*--section title--*/
+#title{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1; /* Certifique-se de que o cabeçalho esteja na frente de outros elementos */
+}
+.navbarNavDropdown{
+    background-color: rgb(20, 164, 46);
+}
+.navbar-brand{
+    padding: 1% 6% 0%;
+    font-size: 200%;
+    font-family: 'Umbutu';
+    font-weight:bold;
+    color: white;
+}
+.nav-item{
+    padding: 8% 0% 7% 0%;  
+}
+.nav-item:hover{ /*--mudar a cor ao passar o mouse*/
+    color: #a0456c;
+}
+header{
+    color: white;
+    background-color:  rgb(24, 37, 36)
+}
+/*--section Principal--*/
+.Principal{
+    background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(0, 0, 0, 0.5)), url(./img/img/PSI3.gif);
+    background-size: cover;
+}
+ 
+.Titulo-text {
+    padding: 10% 5% 5% 5%;
+    font-size: 120%;
+    font-family: 'Umbutu';
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+ 
+/*--section Psicalanise--*/
+#Psicalanise{
+    background-color:  rgb(54, 83, 80);
+    padding: 1% 2% 2% 2%;
+    text-align: center;
+}
+#Psicalanise2{
+    background-color:   rgb(54, 83, 80);
+    padding: 1% 1% 1% 1%;
+    text-align: left;  
+}
+    .Psicanalise-text{
+        color: white;
+        font-family: 'Umbutu';
+        letter-spacing: 0em;
+        text-align: center;
+        font-weight: bold;
+}
+    .Procurar-text{
+        color:  white;
+        font-family: 'Umbutu';
+        font-size: 30px;
+        line-height: normal;
+        font-weight: bold;
+        text-align: justify;
+ 
+}.Procurar1_1 {
+    color: white;
+    font-family: 'Umbutu';
+    font-size: 18px;
+    line-height: normal;
+    text-align: center; /* Alinha o texto ao centro */
+    /* Adicione outras propriedades de estilo conforme necessário */
+  }
+ 
+/*--section Especialidades--*/
+.Especialidades{
+    background-color: rgb(35, 53, 51);
+    padding: 2% 5% 2% 2%;
+    text-align: center;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 100%;
+    z-index: 2;
+    position: relative;
+}
+ 
+ 
+ 
+.Titulo-Especialidades{
+    font-family: 'Ubuntu';
+    font-size: 2.4rem;
+    line-height: 0; /*altura da linha*/
+    font-weight: 800 ;
+    color: white;
+    padding: 00% 0% 4%;
+    text-align: center;
+}
+/*--section Sobre--*/
+#Sobre{
+    background-color:  rgb(74, 108, 104);
+    padding: 2% 5% 5% 0%;
+    text-align: center;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 80%;
+}  
+.skill-row{
+    width: 100%;
+    margin: 1% 2% 3% 5%;
+    text-align: left;
+    line-height: 1,2;
+    font-family: 'Umbutu';
+    font-size: 50%;
+    padding: 1% auto 0% 0%;
+}
+ 
+.Sobre-text{
+        color:  white;
+        margin: 0% 0% 0% 0%;
+        font-family: 'Umbutu';
+        font-size: 17px;
+        line-height: normal;
+        font-weight: bold;
+        text-align: left;
+        text-align: right;
+}
+.code-img{
+    width: 20%;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+figure{
+    padding: 3% 1% 1%;
+    width: 90%;
+    height: 60%;
+    margin-top: 20%;  
+}
+/*--section Beneficios--*/
+#Beneficios{
+    background-color: rgb(35, 53, 51);
+    padding: 6% 2% 2% 2%;
+    text-align: center;
+    color:  white;
+    font-family: "Ubuntu";
+    z-index: 2;
+}
+.card-header{
+    background-color: rgb(43, 66, 66);
+    padding: 4% 2% 0% 2%;
+    }
+.Titulo-Beneficio{
+    font-family: 'Ubuntu';
+    font-size: 2.4rem;
+    line-height: 0; /*altura da linha*/
+    font-weight: 800 ;
+    color: white;
+    padding: 00% 0% 4%;
+    text-align: center;
+}
+.card {
+    background-color:rgb(89, 118, 114); /* Cor verde */
+    box-shadow: 0 2px 5px rgba(174, 190, 158, 0.1);
+    color: white;
+    margin: 10px auto; /* Centralizar o card na página */
+    padding: 20px;
+    text-align: center;
+    max-width: 100%; /* Permitir que o card ocupe no máximo a largura da tela */
+}
+.card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+.contato4{
+    background-color: #45a049;
+}
+.card p {
+    line-height: 1.4;
+}
+ 
+/*--section Social--*/
+#Social{
+    background-color: rgb(81, 116, 112);
+    padding: 6% 2% 2% 2%;
+    text-align: center;
+  }
+.social-icon{
+    width: 2%;
+}
+ 
+ 
+ 
+ 
